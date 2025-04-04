@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selection</title>
+    <style>
+        body {
+            background-color: brown;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            display: block;
+            background: red;
+            color: white;
+            padding: 15px;
+            margin: 10px auto;
+            border-radius: 10px;
+            width: 200px;
+            cursor: pointer;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Your Class</h1>
+    <div class="box" onclick="window.location.href='class9.html'">Class 9</div>
+    <div class="box" onclick="window.location.href='class10.html'">Class 10</div>
+    <div class="box" onclick="window.location.href='class11.html'">Class 11</div>
+    <div class="box" onclick="window.location.href='class12.html'">Class 12</div><button class="back-button" onclick="window.history.back()">Back</button>
+
+</body>
+</html>
